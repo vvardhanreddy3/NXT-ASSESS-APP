@@ -1,0 +1,136 @@
+.nav-container {
+  width: 1535px;
+  height: 88px;
+  background-color: #263868;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  background-color: transparent;
+  width: 98px;
+  height: 55.67px;
+  margin-top: 16.33px;
+  margin-left: 24px;
+  mix-blend-mode: multiply;
+}
+
+.btn {
+  width: 86px;
+  height: 40px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 8px;
+  border: 2px solid #f1f5f9;
+  gap: 8px;
+  background-color: transparent;
+  color: #f1f5f9;
+  margin-top: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-container {
+  width: 818px;
+  height: 697px;
+  top: 182px;
+  left: 311px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-image {
+  width: 485px;
+  height: 364px;
+  top: 214px;
+  left: 477px;
+}
+
+.congrats-head {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #334155;
+}
+
+.time-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-time {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #334155;
+  margin-right: 10px;
+}
+
+.formatted-time-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #164687;
+}
+
+.about-score {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #164687;
+  margin-right: 10px;
+}
+
+.score-text {
+  font-family: 'Inter';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #044682;
+}
+
+.re-btn {
+  width: 130px;
+  height: 40px;
+  top: 791px;
+  left: 655px;
+  padding: 8px, 32px, 8px, 32px;
+  border-radius: 4px;
+  background-color: #164687;
+  border: none;
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
